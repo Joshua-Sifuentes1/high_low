@@ -1,6 +1,5 @@
 <?php 
 	$randomNumber = mt_rand(0, 100);
-	var_dump($randomNumber);
 	fwrite(STDOUT, "Guess a number between 0 and 100." . PHP_EOL);
 	$userGuess = fgets(STDIN);
 
