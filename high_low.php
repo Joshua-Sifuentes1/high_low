@@ -68,7 +68,7 @@
 		$guess = trim(fgets(STDIN));
 
 		if (!is_numeric($guess)){
-			$message = 'Not a valid value. Please enter an integer.' . PHP_EOL;
+			$message = 'Value not valid. Please enter a valid integer.' . PHP_EOL;
 		} else if($guess == $random) {
 			$message = 'You guessed it!' . PHP_EOL;
 		} elseif ($guess < $random) {
